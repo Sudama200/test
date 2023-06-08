@@ -1,0 +1,129 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container {
+  max-width: 117rem;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+}
+.pY40{
+  padding: 40px 0;
+}
+.pt20{
+  padding-top: 20px;
+}
+.flex{
+  display: flex;
+}
+.form-group{
+  row-gap: 20px;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.form-group > div{
+  width: calc(50% - 10px);
+}
+
+label{
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+label span{
+  color: red;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.item-center{
+  align-items: center;
+}
+.address-select label{
+  padding: 0 10px 0;
+}
+input[type=text],select,input[type=date],input[type=email],.input-upload{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+div.width-100{
+  width: 100%;
+}
+h6{
+  font-size: 14px;
+  font-weight: 600;
+  color: grey;
+  padding-bottom: 10px;
+}
+button.submit{
+  padding: 15px 30px;
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  margin: 20px auto;
+  display: flex;
+}
+.col-gap-20{
+  column-gap: 20px;
+}
+.form-group-three{
+  align-items: end;
+}
+.form-group-three button{
+  padding: 10px;
+}
+.row{
+  align-items: center;
+}
+.form-group-three button i {
+  font-size: 20px;
+} 
+
+
+.error{
+  color: red;
+}
+
+.dob{
+  color: grey;
+  /* margin-bottom: 5px */
+}
+.bold-text {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+.heading{
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.logo{
+  margin-top: 5px;
+}
+
+.line_break{
+/* margin-top: -15px; */
+/* margin-bottom: 100px; */
+width: 170px;
+margin: -15px auto 50px auto;
+border: 1px solid black;
+}
